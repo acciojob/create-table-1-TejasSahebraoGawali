@@ -12,7 +12,7 @@ function insert_Row() {
 	newRow.appendChild(cell1);
 	newRow.appendChild(cell2);
 	
-	// table.prepend(newRow);
+	table.prepend(newRow);
 
 	// const newRow = table.insertRow(0);
 	// let cell1 = newRow.insertCell(0);
